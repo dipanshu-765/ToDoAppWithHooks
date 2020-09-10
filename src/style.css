@@ -1,0 +1,58 @@
+h1, p, span {
+  font-family: Lato;
+}
+
+span{
+  font-size: large;
+}
+
+#header{
+    padding-top: 7vh;
+    background-color: #2b2b2b;
+    height: 30vh;
+    width: 100vw;
+}
+
+#header h1{
+    color: #fdfdfd;
+    text-align: center;
+}
+
+#todo-input{
+    width: 80vw;
+    display: inline-block;
+}
+
+#add-todo{
+    background-color: #fa3465;
+    height: 5.8vh;
+    width: 10vw;
+    color: #fdfdfd;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.checklist-item{
+  margin: 10px 0;
+}
+
+.checklist-item .delete-btn, .edit-btn, .save-btn, .cancel-btn{
+  float: right;
+}
+
+.checklist-item span, input{
+  float: left;
+}
+
+ul{
+  list-style: none;
+}
+
+.todo-container button{
+  font-size: large;
+}
+
+.todo-container button:hover{
+  background-color: #fa3465; 
+  color: white;
+}
